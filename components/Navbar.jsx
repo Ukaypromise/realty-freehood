@@ -8,19 +8,40 @@ import {
   Flex,
   Box,
   Spacer,
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbSeparator,
 } from "@chakra-ui/react";
 import { FcMenu, FcHome, FcAbout } from "react-icons/fc";
 import { BsSearch } from "react-icons/bs";
 import { FiKey } from "react-icons/fi";
 
 const Navbar = () => (
-  <Flex p="2" borderBottom="1px" borderColor="gray.100">
-    <Box fontSize="3xl" color="blue.400" fontWeight="bold">
-      <Link href="/" paddingLeft="2">
+  <Flex p="2" borderBottom="1px" borderColor="red.700">
+    <Box fontSize="3xl" color="red.400" fontWeight="bold">
+      <Link href="/" paddingleft="2">
         FreeHood
       </Link>
     </Box>
+    <Box>
+      <Breadcrumb separator="" paddingLeft="20" paddingTop="5" color="red.600">
+        <BreadcrumbItem>
+          <Link href="/">Home</Link>
+        </BreadcrumbItem>
+
+        <BreadcrumbItem paddingLeft="10">
+          <Link href="/search?purpose=for-sale" textDecoration="none">
+            Buy Property
+          </Link>
+        </BreadcrumbItem>
+        <BreadcrumbItem paddingLeft="10">
+          <Link href="/search?purpose=for-rent">Rent Property</Link>
+        </BreadcrumbItem>
+      </Breadcrumb>
+    </Box>
     <Spacer />
+
     <Box>
       <Menu>
         <MenuButton
@@ -30,17 +51,8 @@ const Navbar = () => (
           color="red.400"
         />
         <MenuList>
-          <Link href="/" passHref>
-            <MenuItem icon={<FcHome />}>Home</MenuItem>
-          </Link>
           <Link href="/search" passHref>
             <MenuItem icon={<BsSearch />}>Search</MenuItem>
-          </Link>
-          <Link href="/search?purpose=for-sale" passHref>
-            <MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
-          </Link>
-          <Link href="/search?purpose=for-rent" passHref>
-            <MenuItem icon={<FiKey />}>Rent Property</MenuItem>
           </Link>
         </MenuList>
       </Menu>

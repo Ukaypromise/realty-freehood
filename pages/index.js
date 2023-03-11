@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Flex, Box, Text, Button } from "@chakra-ui/react";
 import { baseUrl, fetchApi } from "@/utils/fetchApi";
+import Property from "../components/Property"
+
 
 const Banner = ({
   purpose,
@@ -35,6 +37,7 @@ const Banner = ({
 };
 
 export default function Home({ propertyForSale, propertyForRent }) {
+  
   return (
     <Box>
       <Banner

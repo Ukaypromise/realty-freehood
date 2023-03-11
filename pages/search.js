@@ -27,7 +27,7 @@ const Search = ({ properties }) => {
         justifyContent="center"
         alignItems="center"
       >
-        <Text>Search Property By Filters</Text>
+        <Text>Filters Properties</Text>
         <Icon paddingLeft="2" w="7" as={BsFilter} />
       </Flex>
       {searchFilters && <SearchFilters />}

@@ -1,8 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FreeHood
+
+A Real Estate  web application that allows users to search for properties in their desired location and also allows users to post their properties for sale or rent.
+
+<img width="1278" alt="Screenshot 2023-03-12 at 00 54 40" src="https://user-images.githubusercontent.com/85847249/224517261-8c1927aa-28c0-4603-8c0a-bac7c0c14b52.png">
+
+<img width="1269" alt="Screenshot 2023-03-12 at 00 55 06" src="https://user-images.githubusercontent.com/85847249/224517256-5e24c8cf-a64c-4772-902f-832fa8a4608e.png">
+
+
+## Built With
+
+- ReactJs
+- Nextjs
+- ChakraUI
+-NPM, Git, Github
+
+## Live Demo
+[Live Demo link](https://realty-freehood.vercel.app/)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+Node package Manager(NPM)
+To install NPM on your local machine, please visit NPM official website
+Text editor(Vscode, Atom, NotePad++, Sublime)
+
+- Click on the clone button to copy the clone
+- Open Terminal and run git clone <copied address>
+- Clone the repo
+- From you terminal run " code ." to open in your code editor.
+
+### Install
+Run the following commands to install dependencies
 
 ```bash
 npm run dev
@@ -11,28 +39,31 @@ yarn dev
 # or
 pnpm dev
 ```
+`
+npm install
+`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Authors
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+👤 **Promise Uka**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- GitHub: [@Ukaypromise](https://github.com/Ukaypromise/)
+- Twitter: [@PromiseUkay](https://twitter.com/PromiseUkay)
+- LinkedIn: [@promiseuka](https://www.linkedin.com/in/promiseuka)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🤝 Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+All thanks to my coding partner whose contribution was vital.
 
-## Learn More
+## Show your support
 
-To learn more about Next.js, take a look at the following resources:
+Give a ⭐️ if you like this project!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Acknowledgments
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Thanks to the reviewers
+- etc
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is [MIT](./MIT.md) licensed.

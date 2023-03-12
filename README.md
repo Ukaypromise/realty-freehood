@@ -2,6 +2,10 @@
 
 A Real Estate  web application that allows users to search for properties in their desired location and also allows users to post their properties for sale or rent.
 
+<img width="1278" alt="Screenshot 2023-03-12 at 00 54 40" src="https://user-images.githubusercontent.com/85847249/224517261-8c1927aa-28c0-4603-8c0a-bac7c0c14b52.png">
+
+<img width="1269" alt="Screenshot 2023-03-12 at 00 55 06" src="https://user-images.githubusercontent.com/85847249/224517256-5e24c8cf-a64c-4772-902f-832fa8a4608e.png">
+
 
 ## Built With
 
@@ -12,8 +16,6 @@ A Real Estate  web application that allows users to search for properties in the
 
 ## Live Demo
 [Live Demo link](https://realty-freehood.vercel.app/)
-
-- 
 
 ## Getting Started
 
